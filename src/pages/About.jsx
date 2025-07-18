@@ -8,47 +8,85 @@ const About = () => {
     {
       icon: Heart,
       title: "Compassion",
-      description: "Every story matters. Every wound can become wisdom. I hold space for the full spectrum of human experience."
+      description:
+        "Every story matters. Every wound holds wisdom. I honor the full spectrum of being human—and meet it with care, not correction."
     },
     {
       icon: Lightbulb,
       title: "Clarity",
-      description: "Through the fog of trauma and confusion, I help you find the thread that leads to your truth and your power."
+      description:
+        "Through the fog of trauma, noise, and self-doubt, I help you find the thread back to your truth—and build something steady from it."
     },
     {
       icon: Feather,
       title: "Integrity",
-      description: "Authentic voice over perfect image. Real progress over quick fixes. Systems that honor your soul."
+      description:
+        "Authentic voice over polished performance. Gentle systems over hustle scripts. Progress that feels like peace."
+    },
+    {
+      icon: Eye,
+      title: "Discernment",
+      description:
+        "Not everything is meant to be kept, fixed, or scaled. I believe in pruning before planting. Alignment before action. Soul before strategy."
+    },
+    {
+      icon: Sparkles,
+      title: "Neurodivergent Wisdom",
+      description:
+        "I walk through the world with AuADHD—Autistic ADHD. It means I notice what others miss. I create systems for the scattered. I build strategies that feel like sanctuary. And I’ve stopped hiding the way my brain was built to shine."
     }
   ];
 
   const timeline = [
-    {
-      year: "2015-2023",
-      title: "The Stay-at-Home Years",
-      description: "Nearly a decade devoted to motherhood, building a home, and believing in a life that would ultimately crumble."
-    },
-    {
-      year: "2023",
-      title: "The Shattering",
-      description: "Betrayal trauma. The end of everything I thought I knew about my life, my marriage, and myself."
-    },
-    {
-      year: "2023-2024",
-      title: "The Wilderness",
-      description: "Learning to survive, then to heal. Writing became my lifeline. Poetry became my prayer."
-    },
-    {
-      year: "2024",
-      title: "The Rebuilding",
-      description: "Discovering that healing is a system. Building frameworks for recovery. Helping other women find their way."
-    },
-    {
-      year: "2025",
-      title: "The Integration",
-      description: "Merging my healing journey with my strategic mind. Creating a business that honors both my story and my skills."
-    }
-  ];
+      {
+        year: "2010–2015",
+        title: "The Disappearing",
+        description:
+          "Long before the shattering, there were quiet vanishings. Of boundaries. Of breath. Of my own voice. I became who I thought I had to be—soft-spoken, over-giving, endlessly adaptable. It felt like survival, because it was."
+      },
+      {
+        year: "2015–2023",
+        title: "The Quiet Becoming",
+        description:
+          "Years spent tending to tiny hands and quiet dreams. I poured myself into motherhood, side hustles, and into a relationship I believed could be whole. I held it all—until I couldn’t anymore."
+      },
+      {
+        year: "2023",
+        title: "The Gentle Awakening",
+        description:
+          "I started naming what I’d long known. The silence wasn’t peace—it was distance. The unease wasn’t in my head—it was in my body. I stopped making excuses for someone else’s absence. I stopped editing my intuition."
+      },
+      {
+        year: "2023–2024",
+        title: "The Wilderness Season",
+        description:
+          "The illusion crumbled completely. Grief echoed through everything. Silence taught. I wrote my way through the ache. Poetry became my prayer, my protest, my proof of life. For the first time, I told the truth and didn’t apologize for the sound of it."
+      },
+      {
+        year: "2024",
+        title: "The Rebuild",
+        description:
+          "Brick by breath, I began to see that healing wasn’t just a feeling—it was a structure. I built systems to hold myself, then began offering them to women walking their own wilderness. I shared devotionals, created containers, and finally realized: I was never standing alone. I never had been."
+      },
+      {
+        year: "Early 2025",
+        title: "The Unmasking",
+        description:
+          "I’ve always been neurodivergent—AuADHD was just the name I didn’t have. For years, I overcompensated, camouflaged, armored the parts of me that moved differently, felt deeper, processed life like poetry. Naming it didn’t change who I was. It gave me permission to unmask. To stop trying to be palatable. To stop apologizing for the way my mind moves. I said yes to leadership in my church, even as the voice inside whispered, 'Don’t do it. They’ll see you.' And they did. They saw the softness. The sacred fire. The strength in my spirals. I used to believe being different made me less. What I know now is this: the people who poked at my tenderness were never my people. This was the year I became brave."
+      },
+      {
+        year: "Mid–2025",
+        title: "The Integration",
+        description:
+          "No more choosing between softness and strategy. I merged the sacred with the systems. *Soulful Strategy* was born—not as a brand, but as a blueprint for becoming whole. For showing up as all of me—neurodivergent, poetic, strategic, spirit-led—and helping others do the same."
+      },
+      {
+        year: "2026 (and beyond)",
+        title: "The Expansion",
+        description:
+          "This is no longer just my story. It’s a gathering. A collective. A legacy. I'm building spaces where women return to themselves—through story, through systems, through sacred self-trust. The future isn’t loud. It’s honest. It’s whole. It’s here."
+      }
+    ];
 
   return (
     <div className="min-h-screen">
